@@ -1,0 +1,2 @@
+idf_component_register(SRCS "main.c" "BMI085IMUDriver/bmi085Driver.c" "BMI085IMUDriver/common/common.c" "BMI085IMUDriver/BMI08x-Sensor-API-master/bmi08a.c" "BMI085IMUDriver/BMI08x-Sensor-API-master/bmi08g.c" "BMI085IMUDriver/BMI08x-Sensor-API-master/bmi08xa.c" "BMI085IMUDriver/BMI08x-Sensor-API-master/bmi088_mma.c" "RMTLEDDriver/LedDriver.c" "RMTLEDDriver/lib/led_strip_api.c" "RMTLEDDriver/lib/led_strip_rmt_dev.c" "RMTLEDDriver/lib/led_strip_rmt_encoder.c"
+                    INCLUDE_DIRS ".")
